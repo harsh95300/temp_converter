@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Temperature Converter <img style="margin-bottom: -8.4px;" width="64" height="48" src="https://img.icons8.com/nolan/64/temperature.png" alt="temperature"/>
+    </h1>
+    <div class="maincont">
+        <div id="container">
+            <h1>℃ to °F</h1>
+            <label for="celsius">Celsius:</label>
+        <input type="number" id="celsius1" placeholder="Enter Celsius temperature">
+        <br>
+        <label for="fahrenheit">Fahrenheit:</label>
+        <span id="result1">--</span>
+        <br><br>
+        <button onclick="celsiusToFah()">Convert</button>
+    </div>
+    <div id="container">
+        <h1>°F to ℃ </h1>
+        <label for="fahrenheit">Fahrenheit:</label>
+        <input type="number" id="fahrenheit1" placeholder="Enter Fahrenheit temperature">
+        <br>
+        <label for="celsius">Celsius:</label>
+        <span id="result2">--</span>
+        <br><br>
+        <button onclick=fahrenheitToCelsius()>Convert</button>
+    </div>
+    
+    <!-- <div id="container">
+        <h1>K to ℃</h1>
+        <label for="celsius">kelvin:</label>
+        <input type="number" id="celsius3" placeholder="Enter Celsius temperature">
+        <br>
+        <label for="fahrenheit">celsius:</label>
+        <span id="result3">--</span>
+        <br><br>
+        <button onclick="kelvinToCelsius()">Convert</button>
+    </div> -->
+</div>
+</body>
+</html>

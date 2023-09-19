@@ -1,0 +1,81 @@
+/* Reset some default styles */
+body, h1, label, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  input{
+    margin-left: -7px;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  /* body{    height: 100vh;} */
+  
+  .maincont {
+      /* height: 400px; */
+      height: calc(100 vh - 36.67 px);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    min-height: 301px;
+    text-align: center;
+    transition: transform 0.2s;
+    /* border: 1px solid red; */
+  }
+  
+  .container:hover {
+    transform: translateY(-5px);
+
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    /* margin: 2px 0; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
