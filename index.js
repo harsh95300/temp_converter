@@ -17,14 +17,7 @@ function fahrenheitToCelsius() {
     }
 }
 
-function kelvinToCelsius() {
-    const kelvin = parseFloat(document.getElementById("celsius3").value);
-    if (!isNaN(kelvin)) {
-        const celsius = kelvin - 273.15;
-        document.getElementById("result3").textContent = celsius.toFixed(2) + " °c";
-    } else {
-        alert("Please enter a valid number for kelvin temperature.");
-    }
+
 }
 
 
